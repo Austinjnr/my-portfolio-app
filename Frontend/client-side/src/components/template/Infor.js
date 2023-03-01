@@ -1,0 +1,9 @@
+function information() {
+    return ( 
+        <h1>
+            a brife description about myself
+        </h1>
+     );
+}
+
+export default information;
