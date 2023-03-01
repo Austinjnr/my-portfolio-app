@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function Login() {
+function Login(props) {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
@@ -13,17 +13,17 @@ function Login() {
 
             <div>
                 <form onSubmit={handleSubmit}>
-                    <label for="email">email</label>
+                    <label htmlFor="email">email</label>
                      <input value={email} type="email" placeholder="youremail@gmail.com" id="email" name="email"></input>
 
-                    <lable for="password">password</lable>
+                    <lable htmlFor="password">password</lable>
                      <input value={password} type="password" placeholder="********" id="password" name="password"></input>
 
                     <button type="submit">Log In</button>
                  </form>
             </div>
-            
-            <button>Don't have an account ? Register</button>
+
+            <button className="link-btn" onClick={() => props.onFormSwitch('register')}>Don't have an account ? Register</button>
 
         </section>
      );
