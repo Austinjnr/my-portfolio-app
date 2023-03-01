@@ -1,4 +1,6 @@
-function register() {
+import React, {useState} from "react";
+
+function Register() {
     return (
         <section>
               <h1>form to sign in and register</h1>
@@ -6,4 +8,4 @@ function register() {
       );
 }
 
-export default register;
+export default Register;
