@@ -1,3 +1,4 @@
+import './Form.css'
 import React, { useState } from 'react';
 
 function Login(props) {
@@ -9,9 +10,10 @@ function Login(props) {
         console.log(email)
     }
     return ( 
-        <section>
+        <section className="landingpg">
 
-            <div>
+            <div className="auth-form-container">
+                <h2>Login</h2>
                 <form onSubmit={handleSubmit}>
                     <label htmlFor="email">email</label>
                      <input value={email} type="email" placeholder="youremail@gmail.com" id="email" name="email"></input>

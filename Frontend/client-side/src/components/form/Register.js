@@ -1,3 +1,4 @@
+import './Form.css'
 import React, { useState } from "react";
 
 function Register(props) {
@@ -11,9 +12,10 @@ function Register(props) {
       }
 
     return (
-        <section>
-              <h1>form to sign in and register</h1>
-              <div>
+        <section className="landingpg">
+              
+              <div className="auth-form-container">
+                  <h2>Create an Account</h2>
                 <form onSubmit={handleSubmit}>
                     <lable htmlFor="name">Full Name</lable>
                     <input value={name} type="name" placeholder="full Name" id="name"></input>
