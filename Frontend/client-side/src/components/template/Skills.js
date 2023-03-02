@@ -1,4 +1,4 @@
-function projects() {
+function Projects() {
     return (  
         <h1>
             list of projects
@@ -9,4 +9,4 @@ function projects() {
     );
 }
 
-export default projects;
+export default Projects;

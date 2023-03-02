@@ -1,9 +1,15 @@
 import Information from "./Infor";
 import Resume from "./Resume";
-import Skills from "./Skills";
+import Projects from "./Skills";
 
 function Template() {
-    return (  );
+    return (
+        <section>
+            <Information />
+            <Resume />
+            <Projects />
+        </section>
+      );
 }
 
 export default Template;
