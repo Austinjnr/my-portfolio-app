@@ -1,6 +1,10 @@
+import Contact from './Contact'
 function about() {
     return ( 
-        <h1>card with image tech occupation and links to socials from contact file</h1>
+        <div>
+ <h1>card with imag,e tech occupation and links to socials from contact file</h1>
+        <Contact />
+        </div>
      );
 }
 

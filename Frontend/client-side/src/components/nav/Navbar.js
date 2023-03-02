@@ -1,3 +1,6 @@
+import React from 'react';
+import '/Navbar.css'
+
 function menu() {
     return (  
         <h1>
