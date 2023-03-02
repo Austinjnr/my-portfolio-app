@@ -1,7 +1,7 @@
 import React from 'react';
 import '/Navbar.css'
 
-function menu() {
+function Menu() {
     return (  
         <h1>
             logo
@@ -12,4 +12,4 @@ function menu() {
     );
 }
 
-export default menu;
+export default Menu;
