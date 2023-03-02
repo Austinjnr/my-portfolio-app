@@ -1,4 +1,4 @@
-function information() {
+function Information() {
     return ( 
         <h1>
             a brife description about myself
@@ -6,4 +6,4 @@ function information() {
      );
 }
 
-export default information;
+export default Information;

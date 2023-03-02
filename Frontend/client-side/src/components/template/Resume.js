@@ -1,4 +1,4 @@
-function resume() {
+function Resume() {
     return ( 
         <h1>
             my experience
@@ -7,4 +7,4 @@ function resume() {
      );
 }
 
-export default resume;
+export default Resume;
