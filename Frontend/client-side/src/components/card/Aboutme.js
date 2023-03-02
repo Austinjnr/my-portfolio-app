@@ -1,11 +1,12 @@
-import Contact from './Contact'
-function about() {
+import Socials from './Contact'
+
+function About() {
     return ( 
         <div>
  <h1>card with imag,e tech occupation and links to socials from contact file</h1>
-        <Contact />
+        <Socials />
         </div>
      );
 }
 
-export default about;
+export default About;
