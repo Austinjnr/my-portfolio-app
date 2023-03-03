@@ -2,8 +2,9 @@ import Socials from './Contact'
 
 function About() {
     return ( 
-        <div>
- <h1>card with imag,e tech occupation and links to socials from contact file</h1>
+        <div className="card">
+            
+         <h1>card with imag,e tech occupation and links to socials from contact file</h1>
         <Socials />
         </div>
      );
