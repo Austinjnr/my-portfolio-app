@@ -3,9 +3,11 @@ import Socials from './Contact'
 function About() {
     return ( 
         <div className="card">
-            
-         <h1>card with imag,e tech occupation and links to socials from contact file</h1>
-        <Socials />
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVFUJkIccsHlJLhJL7o1zWNAGmhh6NYIXHLw&usqp=CAU" alt="my profile picture"/>
+            <h2>Austin Obonyo</h2>
+            <h3>Fullstack Developer</h3>
+            <p>Hi, I am a software engineer proficient in the MERN stack.</p>
+            <Socials />
         </div>
      );
 }
