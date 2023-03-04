@@ -15,18 +15,13 @@ function Menu() {
                 <Link to="/about">
                     <li>About Me</li>
                     </Link>
-                <Link to="/services">
-                    <li>Services</li> 
+                <Link to="/resume">
+                    <li>Resume</li> 
                     </Link>
                 <Link to="/skills">
                     <li>Skills</li>
                     </Link>
-                <Link to="/contact">
-                    <li>Contact</li>
-                    </Link>
-                <Link to="/sign-out">
-                    <li>Sign Out</li>
-                    </Link>
+             
             </ul>
         </nav>
     </section>
