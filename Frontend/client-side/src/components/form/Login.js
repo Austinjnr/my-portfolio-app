@@ -10,7 +10,7 @@ function Login(props) {
         console.log(email)
     }
     return ( 
-        <section className="landingpg">
+        <section className="card">
 
             <div className="auth-form-container">
                 <h2>Login</h2>

@@ -12,7 +12,7 @@ function Register(props) {
       }
 
     return (
-        <section className="landingpg">
+        <section className="card">
               
               <div className="auth-form-container">
                   <h2>Create an Account</h2>
