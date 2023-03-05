@@ -1,0 +1,22 @@
+source 'https://rubygems.org'
+
+gem 'pry'
+gem 'require_all'
+gem 'activerecord'
+gem 'sinatra-activerecord'
+gem 'sqlite3'
+gem 'sinatra'
+gem 'sinatra-cross_origin'
+gem 'rake'
+gem 'bcrypt'
+gem 'puma'
+group :development do
+    gem 'rerun'
+    gem 'faker'
+end
+
+group :test do
+    gem 'rack-test'
+    gem 'rspec'
+  
+end
