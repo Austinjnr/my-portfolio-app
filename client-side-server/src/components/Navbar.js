@@ -1,10 +1,10 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
-import Landing from './Landingpg';
-import About from './details/aboutme';
-import Contact from './details/contact';
+import Landing from './landingpage';
+import About from './aboutme';
+import Contact from './contact';
 import Projects from './projects';
-import Resume from './template/resume';
+import Resume from './resume';
 
 
 const Navbar = () => (
