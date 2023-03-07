@@ -13,6 +13,8 @@ class Projects extends Component {
 
     if(this.state.activeTab === 0){
       return(
+        <div>
+          <h1>working progress</h1>
         <div className="projects-grid">
           {/* Project 1 */}
           <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
@@ -64,7 +66,7 @@ class Projects extends Component {
           </Card>
         </div>
 
-
+</div>
       )
     } else if(this.state.activeTab === 1) {
       return (
