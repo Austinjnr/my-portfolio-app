@@ -1,5 +1,6 @@
 # my-portfolio-app
 This personal portfolio app lets you add and edit projects.
+<img src="./landing.png" alt="sample" />
 
 [demo here]()
 
